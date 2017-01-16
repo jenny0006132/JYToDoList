@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BE4E6671EAF03D4CE0FA2C /* Pods_JYToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA26B9EC9C06726691BFCB8D /* Pods_JYToDoList.framework */; };
+		84277FF41E2C70E200242CFD /* JYToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277FF31E2C70E200242CFD /* JYToDoListTableViewCell.swift */; };
+		84277FF61E2C755F00242CFD /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277FF51E2C755F00242CFD /* HTTPStatusCode.swift */; };
+		84277FFB1E2CB5A900242CFD /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277FFA1E2CB5A900242CFD /* PopupView.swift */; };
+		84277FFD1E2CB5E600242CFD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277FFC1E2CB5E600242CFD /* Theme.swift */; };
+		84277FFF1E2CB80C00242CFD /* AddTaskPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277FFE1E2CB80C00242CFD /* AddTaskPopupView.swift */; };
+		842780011E2CC47800242CFD /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842780001E2CC47800242CFD /* Time.swift */; };
+		FACC26DA1E2D156F00E6498C /* ManagerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC26D91E2D156F00E6498C /* ManagerResponse.swift */; };
+		FACF98511E2BC85B005E58E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98501E2BC85B005E58E3 /* AppDelegate.swift */; };
+		FACF98531E2BC85B005E58E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98521E2BC85B005E58E3 /* ViewController.swift */; };
+		FACF98561E2BC85B005E58E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF98541E2BC85B005E58E3 /* Main.storyboard */; };
+		FACF98581E2BC85B005E58E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF98571E2BC85B005E58E3 /* Assets.xcassets */; };
+		FACF985B1E2BC85B005E58E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF98591E2BC85B005E58E3 /* LaunchScreen.storyboard */; };
+		FACF98641E2BCB01005E58E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98631E2BCB01005E58E3 /* Constants.swift */; };
+		FACF98661E2BCBE5005E58E3 /* JYListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98651E2BCBE5005E58E3 /* JYListManager.swift */; };
+		FACF98681E2BCC05005E58E3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98671E2BCC05005E58E3 /* Task.swift */; };
+		FACF986A1E2BCC19005E58E3 /* JYRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98691E2BCC19005E58E3 /* JYRequest.swift */; };
+		FACF986C1E2BCC45005E58E3 /* JYDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF986B1E2BCC45005E58E3 /* JYDBManager.swift */; };
+		FACF986E1E2BCF62005E58E3 /* JYReqeustData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF986D1E2BCF62005E58E3 /* JYReqeustData.swift */; };
+		FACF98701E2BD118005E58E3 /* JYRESTful.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF986F1E2BD118005E58E3 /* JYRESTful.swift */; };
+		FACF98721E2BD136005E58E3 /* JYResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF98711E2BD136005E58E3 /* JYResponseData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0799689229C369C6605A9AB7 /* Pods-JYToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYToDoList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYToDoList/Pods-JYToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		84277FF31E2C70E200242CFD /* JYToDoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYToDoListTableViewCell.swift; sourceTree = "<group>"; };
+		84277FF51E2C755F00242CFD /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		84277FFA1E2CB5A900242CFD /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		84277FFC1E2CB5E600242CFD /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		84277FFE1E2CB80C00242CFD /* AddTaskPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskPopupView.swift; sourceTree = "<group>"; };
+		842780001E2CC47800242CFD /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		872550F0AC44B896CF766EC8 /* Pods-JYToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYToDoList.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYToDoList/Pods-JYToDoList.release.xcconfig"; sourceTree = "<group>"; };
+		EA26B9EC9C06726691BFCB8D /* Pods_JYToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACC26D91E2D156F00E6498C /* ManagerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerResponse.swift; sourceTree = "<group>"; };
+		FACF984D1E2BC85B005E58E3 /* JYToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF98501E2BC85B005E58E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACF98521E2BC85B005E58E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACF98551E2BC85B005E58E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACF98571E2BC85B005E58E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACF985A1E2BC85B005E58E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACF985C1E2BC85B005E58E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF98631E2BCB01005E58E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FACF98651E2BCBE5005E58E3 /* JYListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYListManager.swift; sourceTree = "<group>"; };
+		FACF98671E2BCC05005E58E3 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FACF98691E2BCC19005E58E3 /* JYRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYRequest.swift; sourceTree = "<group>"; };
+		FACF986B1E2BCC45005E58E3 /* JYDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYDBManager.swift; sourceTree = "<group>"; };
+		FACF986D1E2BCF62005E58E3 /* JYReqeustData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYReqeustData.swift; sourceTree = "<group>"; };
+		FACF986F1E2BD118005E58E3 /* JYRESTful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYRESTful.swift; sourceTree = "<group>"; };
+		FACF98711E2BD136005E58E3 /* JYResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYResponseData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACF984A1E2BC85B005E58E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BE4E6671EAF03D4CE0FA2C /* Pods_JYToDoList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7574DB1896F5F30D5AC63B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0799689229C369C6605A9AB7 /* Pods-JYToDoList.debug.xcconfig */,
+				872550F0AC44B896CF766EC8 /* Pods-JYToDoList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84277FF71E2C7B8D00242CFD /* RESTRequest */ = {
+			isa = PBXGroup;
+			children = (
+				84277FF51E2C755F00242CFD /* HTTPStatusCode.swift */,
+				FACF986F1E2BD118005E58E3 /* JYRESTful.swift */,
+				FACF98691E2BCC19005E58E3 /* JYRequest.swift */,
+				FACF986D1E2BCF62005E58E3 /* JYReqeustData.swift */,
+				FACF98711E2BD136005E58E3 /* JYResponseData.swift */,
+			);
+			name = RESTRequest;
+			sourceTree = "<group>";
+		};
+		84277FF81E2C7BBC00242CFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84277FF71E2C7B8D00242CFD /* RESTRequest */,
+				FACF98651E2BCBE5005E58E3 /* JYListManager.swift */,
+				FACF986B1E2BCC45005E58E3 /* JYDBManager.swift */,
+				FACC26D91E2D156F00E6498C /* ManagerResponse.swift */,
+				FACF98631E2BCB01005E58E3 /* Constants.swift */,
+				FACF98671E2BCC05005E58E3 /* Task.swift */,
+				84277FFC1E2CB5E600242CFD /* Theme.swift */,
+				842780001E2CC47800242CFD /* Time.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84277FF91E2C9B2B00242CFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84277FF31E2C70E200242CFD /* JYToDoListTableViewCell.swift */,
+				84277FFA1E2CB5A900242CFD /* PopupView.swift */,
+				84277FFE1E2CB80C00242CFD /* AddTaskPopupView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B265DB2D87CD5A73044E482A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA26B9EC9C06726691BFCB8D /* Pods_JYToDoList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACF98441E2BC85B005E58E3 = {
+			isa = PBXGroup;
+			children = (
+				FACF984F1E2BC85B005E58E3 /* JYToDoList */,
+				FACF984E1E2BC85B005E58E3 /* Products */,
+				7D7574DB1896F5F30D5AC63B /* Pods */,
+				B265DB2D87CD5A73044E482A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FACF984E1E2BC85B005E58E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACF984D1E2BC85B005E58E3 /* JYToDoList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF984F1E2BC85B005E58E3 /* JYToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				84277FF81E2C7BBC00242CFD /* Model */,
+				84277FF91E2C9B2B00242CFD /* View */,
+				FACF98501E2BC85B005E58E3 /* AppDelegate.swift */,
+				FACF98521E2BC85B005E58E3 /* ViewController.swift */,
+				FACF98541E2BC85B005E58E3 /* Main.storyboard */,
+				FACF98571E2BC85B005E58E3 /* Assets.xcassets */,
+				FACF98591E2BC85B005E58E3 /* LaunchScreen.storyboard */,
+				FACF985C1E2BC85B005E58E3 /* Info.plist */,
+			);
+			path = JYToDoList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACF984C1E2BC85B005E58E3 /* JYToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF985F1E2BC85B005E58E3 /* Build configuration list for PBXNativeTarget "JYToDoList" */;
+			buildPhases = (
+				11D4DD1E4502E42546F0779E /* [CP] Check Pods Manifest.lock */,
+				FACF98491E2BC85B005E58E3 /* Sources */,
+				FACF984A1E2BC85B005E58E3 /* Frameworks */,
+				FACF984B1E2BC85B005E58E3 /* Resources */,
+				0CC860D62404E75D530B7186 /* [CP] Embed Pods Frameworks */,
+				3CEF2AF7E7DADE7421D1F385 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYToDoList;
+			productName = JYToDoList;
+			productReference = FACF984D1E2BC85B005E58E3 /* JYToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACF98451E2BC85B005E58E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jenny Yao";
+				TargetAttributes = {
+					FACF984C1E2BC85B005E58E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SJ686M28XV;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FACF98481E2BC85B005E58E3 /* Build configuration list for PBXProject "JYToDoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACF98441E2BC85B005E58E3;
+			productRefGroup = FACF984E1E2BC85B005E58E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACF984C1E2BC85B005E58E3 /* JYToDoList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACF984B1E2BC85B005E58E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF985B1E2BC85B005E58E3 /* LaunchScreen.storyboard in Resources */,
+				FACF98581E2BC85B005E58E3 /* Assets.xcassets in Resources */,
+				FACF98561E2BC85B005E58E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC860D62404E75D530B7186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYToDoList/Pods-JYToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11D4DD1E4502E42546F0779E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEF2AF7E7DADE7421D1F385 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYToDoList/Pods-JYToDoList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACF98491E2BC85B005E58E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF986A1E2BCC19005E58E3 /* JYRequest.swift in Sources */,
+				FACF98661E2BCBE5005E58E3 /* JYListManager.swift in Sources */,
+				FACF98531E2BC85B005E58E3 /* ViewController.swift in Sources */,
+				FACF98701E2BD118005E58E3 /* JYRESTful.swift in Sources */,
+				842780011E2CC47800242CFD /* Time.swift in Sources */,
+				FACF98681E2BCC05005E58E3 /* Task.swift in Sources */,
+				84277FFF1E2CB80C00242CFD /* AddTaskPopupView.swift in Sources */,
+				84277FFD1E2CB5E600242CFD /* Theme.swift in Sources */,
+				FACC26DA1E2D156F00E6498C /* ManagerResponse.swift in Sources */,
+				FACF986E1E2BCF62005E58E3 /* JYReqeustData.swift in Sources */,
+				84277FF61E2C755F00242CFD /* HTTPStatusCode.swift in Sources */,
+				FACF98511E2BC85B005E58E3 /* AppDelegate.swift in Sources */,
+				FACF98721E2BD136005E58E3 /* JYResponseData.swift in Sources */,
+				84277FF41E2C70E200242CFD /* JYToDoListTableViewCell.swift in Sources */,
+				FACF98641E2BCB01005E58E3 /* Constants.swift in Sources */,
+				FACF986C1E2BCC45005E58E3 /* JYDBManager.swift in Sources */,
+				84277FFB1E2CB5A900242CFD /* PopupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACF98541E2BC85B005E58E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF98551E2BC85B005E58E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACF98591E2BC85B005E58E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF985A1E2BC85B005E58E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACF985D1E2BC85B005E58E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACF985E1E2BC85B005E58E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACF98601E2BC85B005E58E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0799689229C369C6605A9AB7 /* Pods-JYToDoList.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJ686M28XV;
+				INFOPLIST_FILE = JYToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.JYToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		FACF98611E2BC85B005E58E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872550F0AC44B896CF766EC8 /* Pods-JYToDoList.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJ686M28XV;
+				INFOPLIST_FILE = JYToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.JYToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACF98481E2BC85B005E58E3 /* Build configuration list for PBXProject "JYToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF985D1E2BC85B005E58E3 /* Debug */,
+				FACF985E1E2BC85B005E58E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF985F1E2BC85B005E58E3 /* Build configuration list for PBXNativeTarget "JYToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF98601E2BC85B005E58E3 /* Debug */,
+				FACF98611E2BC85B005E58E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACF98451E2BC85B005E58E3 /* Project object */;
+}
